@@ -11,31 +11,22 @@ public class CSVReader {
     
     public List<Employee> read(String fileName) throws FileNotFoundException, IOException{
 
-        List<String> employeeInfo = new ArrayList<String>();
+        List <Employee> employees = new ArrayList<>();
 
         FileReader fr = new FileReader(fileName);
         BufferedReader br = new BufferedReader(fr);
-        String employee = "";
+
+        String employee = br.readLine();
 
         while ((employee = br.readLine()) != null){
-           employeeInfo.add(employee);
-        }
-
-        br.close();
-
-        //System.out.println(employeeInfo);
-
-        //from index 1 onwards (delete header), split up each line according to commas and store them into employees with setters
-
-        List <Employee> employees = new ArrayList<>();
-
-        for (int i =1 ; i < employeeInfo.size(); i++){
-            String information = employeeInfo.get(i);
-            String[] infoVals = information.split(",");
+            String[] infoVals = employee.split(",");
             Employee emp = new Employee(infoVals[0], infoVals[1], infoVals[2], infoVals[3], infoVals[4], Integer.parseInt(infoVals[5]));
 
             employees.add(emp);
+
         }
+
+        br.close();
 
         return employees;
 
