@@ -1,0 +1,5 @@
+staffName, fullName, department, role, emailAddress, salary
+zanxin,yang zanxin,zx,female lead,yzx@zx.com,8500
+baiyin,gu baiyin,zx,male lead,gby@zx.com,8000
+rufei,he yan,njx,female lead,hy@njx.com,10500
+huaijin,xiao jue,njx,male lead,xhj@njx.com,10000

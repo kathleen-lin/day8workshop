@@ -1,0 +1,5 @@
+staffNum, fullName, department, role, emailAddress, salary
+1342,abby,A.Dep,D,yzx@zx.com,10500,
+8821,bernard cs,A.Dep,DD,gby@zx.com,10000,
+6772,caitlin,B.Dep,AD,hy@njx.com,9000,
+3428,david,B.Dep,head,xhj@njx.com,8000,

@@ -2,16 +2,16 @@ package day8revision;
 
 public class Employee implements Comparable<Employee> {
 
-    public String staffName;
+    public String staffNum;
     public String fullName;
     public String department;
     public String role;
     public String emailAddress;
     public Integer salary;
 
-    public Employee(String staffName, String fullName, String department, String role, String emailAddress,
+    public Employee(String staffNum, String fullName, String department, String role, String emailAddress,
             Integer salary) {
-        this.staffName = staffName;
+        this.staffNum = staffNum;
         this.fullName = fullName;
         this.department = department;
         this.role = role;
@@ -21,10 +21,10 @@ public class Employee implements Comparable<Employee> {
 
 
     public String getStaffName() {
-        return staffName;
+        return staffNum;
     }
     public void setStaffName(String staffName) {
-        this.staffName = staffName;
+        this.staffNum = staffName;
     }
     public String getFullName() {
         return fullName;
@@ -60,7 +60,7 @@ public class Employee implements Comparable<Employee> {
 
     @Override
     public String toString() {
-        return "Employee [staffName=" + staffName + ", fullName=" + fullName + ", department=" + department + ", role="
+        return "Employee [StaffNum=" + staffNum + ", fullName=" + fullName + ", department=" + department + ", role="
                 + role + ", emailAddress=" + emailAddress + ", salary=" + salary + "]";
     }
 
