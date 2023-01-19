@@ -35,11 +35,15 @@ public final class App {
         LinkedListExample lle = new LinkedListExample();
 
         lle.example();
-*/
+
 
         CollectionSortExample cse = new CollectionSortExample();
         //cse.collectionsort();
         cse.example02();
+*/
 
+
+        StackExample se = new StackExample();
+        se.example();
     }
 }
