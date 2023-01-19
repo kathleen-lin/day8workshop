@@ -13,6 +13,7 @@ public final class App {
      */
     public static void main(String[] args) {
 
+        /* 
         ArraySortExample ase = new ArraySortExample();
         ase.arraysort();
 
@@ -21,7 +22,11 @@ public final class App {
         CollectionSortExample cse = new CollectionSortExample();
         cse.collectionsort();
         cse.example02();
+*/
 
+
+        HashMapExample hme = new HashMapExample();
+        hme.example();
 
     }
 }
