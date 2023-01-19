@@ -27,10 +27,16 @@ public final class App {
 
         HashMapExample hme = new HashMapExample();
         hme.example();
-        */
+        
 
         ConcurrentHashMapExample chmp = new ConcurrentHashMapExample();
         chmp.example();
+*/
+        LinkedListExample lle = new LinkedListExample();
+
+        lle.example();
+
+
 
     }
 }
