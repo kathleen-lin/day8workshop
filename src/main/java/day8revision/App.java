@@ -22,11 +22,15 @@ public final class App {
         CollectionSortExample cse = new CollectionSortExample();
         cse.collectionsort();
         cse.example02();
-*/
+
 
 
         HashMapExample hme = new HashMapExample();
         hme.example();
+        */
+
+        ConcurrentHashMapExample chmp = new ConcurrentHashMapExample();
+        chmp.example();
 
     }
 }
