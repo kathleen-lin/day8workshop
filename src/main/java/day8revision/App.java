@@ -31,12 +31,15 @@ public final class App {
 
         ConcurrentHashMapExample chmp = new ConcurrentHashMapExample();
         chmp.example();
-*/
+
         LinkedListExample lle = new LinkedListExample();
 
         lle.example();
+*/
 
-
+        CollectionSortExample cse = new CollectionSortExample();
+        //cse.collectionsort();
+        cse.example02();
 
     }
 }
